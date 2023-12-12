@@ -1,1 +1,271 @@
-/* You CSS goes in here */
+/* Your CSS goes in here */
+*{
+    padding: 0%;
+    margin: 0%; 
+    box-sizing: border-box;
+}
+body{
+  overscroll-behavior: none;
+}
+
+#h1{
+ font-size: 40px;
+ background-color:rgb(106, 90, 205);
+ border: 5px groove black;
+ color:#fff;
+ margin:5px;
+
+display: flex;
+justify-content: center ;
+align-items: center;
+}
+
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 25px;
+    right: 0;
+    background-color: #d5a45e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 35px;
+  }
+  #lists{
+    margin-left: 20px;
+    padding: 8px 8px 8px 32px;
+    color:white;
+  }
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff7f7;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #6b6969;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    width: 150px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: #d21b7a;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+  li{
+    margin:20px;
+  }
+
+
+  .m{
+    color: rgb(35, 33, 33);
+  }
+        
+  /* .button {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+} */
+.button-container {
+  margin-top: 20px;
+}
+
+/* Styling for the buttons */
+button {
+  margin: auto;
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+h1{
+  margin-left:120px;
+  margin-right:50px;
+  padding:12px;
+  background-color:#8cc1e5;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.allbox{
+    height: 60vh;
+    width: 80%;
+    border:4px solid rgb(25, 78, 134);
+    border-radius: 25px;
+    margin:40px;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 2px 2px 5px 4px black ;
+   
+  }
+  .container{
+    display: flex;
+  }
+  
+  .main-section {
+    /* display: flex; */
+    flex-direction: column;
+    /* background-color: rgba(252, 234, 153, 0.651); */
+    background-color:  bisque;
+    height: 30vh;
+    border-radius: 25px;
+    width: 50%;
+    margin: 2px;
+    margin-left: 0px;
+    border: 2px solid black;
+  }
+
+ /* button {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 5px 50px;
+  border: none;
+  background-color: #aefc1e;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #18b43a;
+} */
+.main-section2 {
+    /* display: flex; */
+  flex-direction: column;
+  background-color:  bisque;
+  height: 50vh;
+  border-radius: 25px;
+  margin: 2px;
+  margin-left: 0px;
+  margin-right:0px;
+  border: 2px solid black;
+}
+
+  
+
+.control-container{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+  /* .svg-mode{
+    margin: 10px,10px,;
+    padding: 20px;
+
+  } */
+
+  /* .btn {
+    width: 100%;
+  } */
+
+.row {
+  display: block !important;
+  width: 100%;
+  text-align: center;
+  margin: 3px auto;
+}
+  
+.col {
+  display: inline-block;
+  width: 49%;
+  box-sizing: border-box;
+  margin: 2 auto;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+#cableType {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.print {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+td{
+  text-align:center;
+}
+#Layer_1{
+  width:100%;
+  height: 100%;
+}
+table{
+  border-collapse: collapse;
+}
+th{
+  background-color: #000;
+  color: #fff;
+}
+tr:nth-child(odd) {
+background-color: lightblue;
+}
+tr:nth-child(even) {
+background-color: lightskyblue;
+}
